@@ -1,0 +1,19 @@
+item:
+  name: ''
+  lore: []
+  material: PLAYER_HEAD
+  head: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4OTc5NTJiY2M0Yzg1ODBkMGQxZmIwYmEwZjQ5N2Y0Y2QxNjE1Yzg4MjM0OWFhNjUyMWZmYmU3NzY4MzQ2MCJ9fX0='
+menu:
+  title: "&0Рюкзак"
+  rows: 2
+  starterSlot: 5 # с какого слота начать заполнение слотами для покупки?
+recipe:
+  pattern:
+    - 'AAA'
+    - 'BBB'
+    - 'CVC'
+  materials:
+    A: OAK_LOG
+    B: STONE
+    C: OBSIDIAN
+    V: RED_WOOL

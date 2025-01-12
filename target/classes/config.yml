@@ -1,0 +1,46 @@
+config:
+  loadExample: true
+  disableStacking: true
+  disabledStorage: # в какие хранилища нельзя класть рюкзаки?
+    - FURNACE
+  disabledItems: # какие предметы нельзя класть в рюкзак?
+    - BEDROCK
+    - SPAWNER
+  buySlotCost: 15000
+  buySound: ENTITY_PLAYER_LEVELUP
+  errorSound: BLOCK_ANVIL_PLACE
+items:
+  BUY_SLOT:
+    material: BLUE_STAINED_GLASS_PANE
+    displayName: '&x&2&A&8&8&F&8 Купить слот'
+    lore:
+      - " "
+      - "&f Нажмите чтобы начать покупку"
+      - "&f Стоимость: &x&2&A&8&8&F&815000$"
+      - " "
+  SUCCESSFUL_SLOT:
+    material: LIME_STAINED_GLASS_PANE
+    displayName: '&a Купить слот'
+    lore:
+      - " "
+      - "&f Нажмите &aЛКМ&f чтобы купить"
+      - "&f Нажмите &aПКМ&f чтобы отменить"
+      - " "
+      - "&f Стоимость покупки: &a15000$"
+      - " "
+  CLOSED_SLOT:
+    material: GRAY_STAINED_GLASS_PANE
+    displayName: '&c Слот закрыт!'
+    lore:
+      - " "
+      - "&f Откройте сначала предыдущий слот!"
+      - " "
+messages:
+  noMoney: "&x&2&A&8&8&F&8(⚡)&f у вас не хватает монет для покупки!"
+  noPerm: "&x&2&A&8&8&F&8(⚡)&f у вас нет прав!"
+  noArgs: "&x&2&A&8&8&F&8(⚡)&f Не хватает аргументов!"
+  reloadPlugin: "&x&2&A&8&8&F&8(⚡)&f Вы перезагрузили плагин!"
+  playerIsOffline: "&x&2&A&8&8&F&8(⚡)&f Игрок не в сети!"
+  itemIsLocked: "&x&2&A&8&8&F&8(⚡)&f Этот предмет нельзя класть в рюкзак!"
+  storageIsLocked: "&x&2&A&8&8&F&8(⚡)&f Рюкзак нельзя положить сюда!"
+  buySlot: "&x&2&A&8&8&F&8(⚡)&f Слот успешно куплен!"

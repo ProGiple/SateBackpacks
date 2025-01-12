@@ -1,0 +1,17 @@
+org\satellite\progiple\satebackpacks\backpacks\menu\buttons\Button.class
+org\satellite\progiple\satebackpacks\Command.class
+org\satellite\progiple\satebackpacks\other\configs\BackPackConfig.class
+org\satellite\progiple\satebackpacks\SateBackpacks.class
+org\satellite\progiple\satebackpacks\backpacks\events\OpenEvent.class
+org\satellite\progiple\satebackpacks\backpacks\events\PlaceEvent.class
+org\satellite\progiple\satebackpacks\backpacks\events\PutEvent.class
+org\satellite\progiple\satebackpacks\backpacks\menu\buttons\ClosedButton.class
+org\satellite\progiple\satebackpacks\other\Utils.class
+org\satellite\progiple\satebackpacks\backpacks\menu\LootSetter.class
+org\satellite\progiple\satebackpacks\backpacks\menu\buttons\BuyButton.class
+org\satellite\progiple\satebackpacks\backpacks\menu\ButtonSetter.class
+org\satellite\progiple\satebackpacks\backpacks\menu\BMenu.class
+org\satellite\progiple\satebackpacks\other\configs\Data.class
+org\satellite\progiple\satebackpacks\other\configs\Config.class
+org\satellite\progiple\satebackpacks\backpacks\BackPack.class
+org\satellite\progiple\satebackpacks\other\Vault.class

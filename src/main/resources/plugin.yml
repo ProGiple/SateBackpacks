@@ -1,0 +1,23 @@
+name: SateBackpacks
+version: '${project.version}'
+main: org.satellite.progiple.satebackpacks.SateBackpacks
+api-version: '1.16'
+softdepend:
+  - Vault
+  - NBTAPI
+commands:
+  satebackpacks:
+    aliases:
+      - sbp
+      - sb
+      - sateb
+      - satebp
+      - satebackp
+      - satebackpack
+      - backpacks
+      - backpack
+      - sbackpack
+      - sbackpacks
+permissions:
+  satebackpacks.admin:
+    default: op
